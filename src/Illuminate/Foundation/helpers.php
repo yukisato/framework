@@ -895,7 +895,7 @@ if (! function_exists('trans_choice')) {
     }
 }
 
-if (! function_exists('__')) {
+if (! function_exists('___')) {
     /**
      * Translate the given message.
      *
@@ -904,7 +904,7 @@ if (! function_exists('__')) {
      * @param  string|null  $locale
      * @return string|array|null
      */
-    function __($key, $replace = [], $locale = null)
+    function ___($key, $replace = [], $locale = null)
     {
         return app('translator')->getFromJson($key, $replace, $locale);
     }
